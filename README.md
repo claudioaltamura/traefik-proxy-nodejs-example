@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/claudioaltamura/traefik-proxy-nodejs-example.svg?branch=main)](https://travis-ci.com/github/claudioaltamura/traefik-proxy-nodejs-example)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # traefik-proxy-nodejs-example
 A Traefik proxy example with Node.js and Express.js
 # Run server
@@ -37,6 +40,6 @@ app_a
 
     docker-compose down -v
 
-# ap_a
+# app_a
 
     curl -i http://app_a.localhost
