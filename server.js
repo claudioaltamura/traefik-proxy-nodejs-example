@@ -3,11 +3,11 @@
 const express = require('express');
 
 // Constants
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const HOST = '0.0.0.0';
 
 
-const APP_NAME = process.env.APP_NAME;
+const APP_NAME = process.env.APP_NAME || "app";
 
 // App
 const app = express();
