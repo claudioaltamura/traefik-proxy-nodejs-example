@@ -34,6 +34,7 @@ reverse-proxy
     docker-compose up -d reverse-proxy
 
 app_a
+
     docker-compose up -d app_a
 
 # Stop docker-compose
